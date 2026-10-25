@@ -1,0 +1,60 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.out
+*.exe
+*.hex
+
+# C / C++ artifacts
+*.dSYM/
+*.su
+*.idb
+*.pdb
+cmake-build-*/
+
+# Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+
+# IDE and Editor Metadata
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.metadata/
+.project
+.classpath
+.settings/
+
+# Operating System Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
