@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 19 | 0 | 0 | 0 | 19 |
+| 01. Logic Building | 35 | 0 | 12 | 0 | 47 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **19** | **0** | **0** | **0** | **19** |
+| **Overall Total** | **35** | **0** | **12** | **0** | **47** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 19 (C: 19, C++: 0, Java: 0, JavaScript: 0)
+- **Total Programs:** 47 (C: 35, C++: 0, Java: 12, JavaScript: 0)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -52,6 +52,34 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `17-check-even-odd-inline.c`: Decision making — inline parity check using modulo `% 2` operator.
   - `18-check-even-odd-function.c`: Decision making — modular `void CheckEven(int)` function implementation.
   - `19-check-even-odd-boolean.c`: Decision making — boolean-returning `bool CheckEven(int)` using `<stdbool.h>`.
+  - `20-single-word-string-input.c`: String input reading a single token using `scanf` format specifier `%s`.
+  - `21-multi-word-string-input-scanset.c`: Multi-word string input using scanset `%[^'\n']s` regular expression.
+  - `22-input-buffer-newline-issue.c`: Demonstration of residual newline character issue in input buffer across multiple inputs.
+  - `23-input-buffer-space-fix.c`: Resolving residual whitespace/newline issue using leading space in format string.
+  - `24-input-buffer-fflush-fix.c`: Flushing standard input buffer using `fflush(stdin)`.
+  - `25-maximum-two-numbers-inline.c`: Decision making — finding maximum of two numbers using inline `if-else`.
+  - `26-maximum-two-numbers-procedure.c`: Decision making — finding maximum of two numbers using `void` procedure.
+  - `27-maximum-two-numbers-function.c`: Decision making — finding maximum of two numbers using fruitful helper function.
+  - `28-minimum-two-numbers-function.c`: Decision making — finding minimum of two numbers using helper function.
+  - `29-average-two-numbers-integer-division.c`: Arithmetic analysis — demonstrating integer division truncation flaw when calculating average.
+  - `30-average-two-numbers-typecasting.c`: Arithmetic analysis — computing accurate average using float typecasting.
+  - `31-average-three-numbers-typecasting.c`: Arithmetic analysis — computing average of three numbers using explicit float typecasting.
+  - `32-maximum-three-numbers-logical-and.c`: Decision making — finding maximum of three numbers using logical AND `&&`.
+  - `33-maximum-three-numbers-logical-or-flaw.c`: Decision making — demonstrating intentional logical flaw when using logical OR `||`.
+  - `34-minimum-three-numbers-logical-and.c`: Decision making — finding minimum of three numbers using logical AND `&&`.
+  - `35-minimum-four-numbers-conditional-ladder.c`: Decision making — finding minimum of four numbers using chained `else-if` conditional ladder.
+  - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
+  - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
+  - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
+  - `ScannerNullInitialization.java`: Scanner object reference explicitly declared with `null` before instantiation.
+  - `SingleWordInputUsingScanner.java`: Reading single-word string token using `scanner.next()`.
+  - `FloatPrecisionLossError.java`: Type safety demonstration — lossy conversion compilation error assigning double literal to float without `f` suffix.
+  - `FloatLiteralUsage.java`: Resolving float assignment using explicit `f` suffix literal (`0.0f`).
+  - `MultiDataInputUsingScanner.java`: Multi-datatype input handling (String, int, float) using Scanner methods.
+  - `AdditionInMainMethod.java`: Arithmetic addition implemented procedurally inside Java `main()` method.
+  - `AdditionInstanceMethodCallingError.java`: OOP fundamentals — compilation error attempting to call non-static instance method from static `main()`.
+  - `AdditionHelperClassBelowMain.java`: Modular design — static arithmetic method declared inside helper class and class-qualified invocation.
+  - `AdditionObjectOrientedApproach.java`: Modular design — object-oriented instantiation of helper class and instance method invocation.
 
 ### 02. Arrays and Matrices
 - **Status:** Not Started
