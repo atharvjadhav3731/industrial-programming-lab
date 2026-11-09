@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 35 | 0 | 12 | 0 | 47 |
+| 01. Logic Building | 50 | 0 | 32 | 0 | 82 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **35** | **0** | **12** | **0** | **47** |
+| **Overall Total** | **50** | **0** | **32** | **0** | **82** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 47 (C: 35, C++: 0, Java: 12, JavaScript: 0)
+- **Total Programs:** 82 (C: 50, C++: 0, Java: 32, JavaScript: 0)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -68,6 +68,21 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `33-maximum-three-numbers-logical-or-flaw.c`: Decision making — demonstrating intentional logical flaw when using logical OR `||`.
   - `34-minimum-three-numbers-logical-and.c`: Decision making — finding minimum of three numbers using logical AND `&&`.
   - `35-minimum-four-numbers-conditional-ladder.c`: Decision making — finding minimum of four numbers using chained `else-if` conditional ladder.
+  - `36-display-repetition-sequential.c`: Repetitive output — sequential manual `printf` statements.
+  - `37-iteration-for-loop-fixed.c`: Iteration fundamentals — fixed-frequency `for` loop executing 4 iterations.
+  - `38-iteration-dynamic-user-count.c`: Dynamic iteration — `for` loop bounded by dynamic user frequency input.
+  - `39-print-numbers-vertical.c`: Loop counter output — displaying numbers 1 to N vertically.
+  - `40-print-numbers-horizontal-tab.c`: Formatted loop output — displaying numbers 1 to N horizontally delimited with `\t`.
+  - `41-interleaved-number-star-horizontal.c`: Interleaved pattern — alternating loop counter and `*` horizontally.
+  - `42-interleaved-number-star-vertical.c`: Interleaved pattern — alternating loop counter and `*` vertically.
+  - `43-reverse-number-sequence.c`: Reverse iteration — decrementing loop displaying numbers from N down to 1.
+  - `44-odd-numbers-dual-increment.c`: Sequence generation — odd numbers displayed using dual increment (`iCnt++` inside body and loop header).
+  - `45-odd-numbers-loop-step.c`: Sequence generation — odd numbers displayed with step expression `iCnt = iCnt + 2`.
+  - `46-odd-numbers-shorthand-operator.c`: Sequence generation — odd numbers displayed using shorthand addition assignment `iCnt += 2`.
+  - `47-summation-manual-accumulator.c`: Accumulator pattern — manual step-by-step addition into accumulator variable.
+  - `48-summation-using-for-loop.c`: Accumulator pattern — summation of natural numbers 1 to N using `for` loop.
+  - `49-factorial-zero-initialization-flaw.c`: Accumulator analysis — demonstrating product multiplication flaw caused by zero-initialization.
+  - `50-factorial-using-for-loop.c`: Iterative factorial — factorial computation using `for` loop with accumulator properly initialized to 1.
   - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
   - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
   - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
@@ -80,6 +95,26 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `AdditionInstanceMethodCallingError.java`: OOP fundamentals — compilation error attempting to call non-static instance method from static `main()`.
   - `AdditionHelperClassBelowMain.java`: Modular design — static arithmetic method declared inside helper class and class-qualified invocation.
   - `AdditionObjectOrientedApproach.java`: Modular design — object-oriented instantiation of helper class and instance method invocation.
+  - `AdditionStaticMethodInSameClass.java`: Modular design — static addition helper method declared and invoked within the same class.
+  - `AdditionStaticMethodUnqualifiedCallError.java`: Scoping demonstration — compilation error attempting unqualified call to static method in nested/separate helper class.
+  - `AdditionStaticMethodClassQualified.java`: Modular design — qualified invocation of static helper method via class name (`Arithmatic.Addition`).
+  - `RepetitiveDisplaySequential.java`: Console output — sequential manual `System.out.println` repetitive statements.
+  - `RepetitiveDisplayStaticMethod.java`: Procedural abstraction — repetitive display encapsulated within static helper method.
+  - `RepetitiveDisplaySeparateClassStatic.java`: Modular design — display procedure delegated to separate class with static method.
+  - `RepetitiveDisplayObjectOriented.java`: OOP design — display method encapsulated in separate class instantiated as an object.
+  - `ForLoopIteration.java`: Iteration control — basic `for` loop execution with fixed boundary condition.
+  - `ForLoopExtendedIteration.java`: Iteration control — `for` loop demonstrating iteration range extension.
+  - `ForLoopWithScannerInput.java`: Dynamic iteration — `for` loop bounded by user input read via `Scanner`.
+  - `ForLoopWithInputFilter.java`: Defensive programming — input filter handling negative frequency values.
+  - `ForLoopWithInputUpdater.java`: Defensive programming — input updater converting negative input to positive via negation.
+  - `ForLoopBannerDelimiter.java`: Console formatting — decorative banner delimiters around repetitive loop output.
+  - `ForLoopDisplayCounter.java`: Counter visualization — printing iteration index counter alongside message.
+  - `ForLoopCounterWithMessage.java`: Formatted output — combining formatted string messages with dynamic loop counter.
+  - `InfiniteLoopDecrementFlaw.java`: Control flow analysis — infinite loop demonstration caused by decrementing away from termination condition.
+  - `ForLoopReverseIteration.java`: Reverse iteration — decrementing `for` loop displaying numbers from N down to 1.
+  - `ForLoopDynamicReverseDisplay.java`: Reverse iteration — dynamic countdown loop driven by user-supplied boundary.
+  - `IterationUsingWhileLoop.java`: Control flow alternatives — iteration implemented using entry-controlled `while` loop.
+  - `IterationUsingDoWhileLoop.java`: Control flow alternatives — iteration implemented using exit-controlled `do-while` loop.
 
 ### 02. Arrays and Matrices
 - **Status:** Not Started
