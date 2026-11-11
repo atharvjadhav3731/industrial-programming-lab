@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 50 | 0 | 32 | 0 | 82 |
+| 01. Logic Building | 74 | 0 | 32 | 0 | 106 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **50** | **0** | **32** | **0** | **82** |
+| **Overall Total** | **74** | **0** | **32** | **0** | **106** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 82 (C: 50, C++: 0, Java: 32, JavaScript: 0)
+- **Total Programs:** 106 (C: 74, C++: 0, Java: 32, JavaScript: 0)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -83,6 +83,30 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `48-summation-using-for-loop.c`: Accumulator pattern — summation of natural numbers 1 to N using `for` loop.
   - `49-factorial-zero-initialization-flaw.c`: Accumulator analysis — demonstrating product multiplication flaw caused by zero-initialization.
   - `50-factorial-using-for-loop.c`: Iterative factorial — factorial computation using `for` loop with accumulator properly initialized to 1.
+  - `51-check-divisible-by-three.c`: Decision making — checking integer divisibility by 3 using modulo `% 3`.
+  - `52-check-divisible-by-five.c`: Decision making — checking integer divisibility by 5 using modulo `% 5`.
+  - `53-check-divisible-three-and-five-logical-and.c`: Decision making — compound divisibility check using logical AND `&&` with short-circuit analysis.
+  - `54-check-divisible-three-or-five-logical-or.c`: Decision making — compound divisibility check using logical OR `||` with short-circuit analysis.
+  - `55-check-divisible-nested-if.c`: Decision making — compound divisibility check using nested `if` statements.
+  - `56-display-natural-numbers-inline.c`: Iteration — displaying natural numbers 1 to N inline within `main()`.
+  - `57-display-natural-numbers-function.c`: Modular design — displaying natural numbers 1 to N encapsulated in `void Display(int)` procedure.
+  - `58-summation-natural-numbers-function.c`: Accumulator pattern — fruitful function `Summation(int)` computing sum of first N natural numbers.
+  - `59-factorial-function-reinitialization.c`: Accumulator pattern — factorial calculation with separate declaration, zero initialization, and reassignment to 1.
+  - `60-factorial-function-direct-initialization.c`: Accumulator pattern — factorial calculation with direct variable declaration and initialization `iFact = 1`.
+  - `61-factorial-long-int-datatype.c`: Data types & precision — factorial computation using `long int` datatype with format specifier `%ld`.
+  - `62-factorial-long-long-datatype.c`: Data types & precision — factorial computation using 64-bit `long long` datatype with format specifier `%lld`.
+  - `63-datatype-sizes-basic.c`: Memory architecture — inspecting fundamental data type sizes in bytes using `sizeof` operator.
+  - `64-datatype-sizes-extended.c`: Memory architecture — inspecting extended and modifier data type sizes (`short`, `long`, `long double`) using `sizeof`.
+  - `65-factorial-unsigned-long-long.c`: Data types & precision — factorial range maximization using `unsigned long long` datatype.
+  - `66-factorial-typedef-type-alias.c`: Type definitions — defining and utilizing `typedef unsigned long long ULONG` alias in factorial function.
+  - `67-factors-linear-traversal.c`: Algorithmic complexity — identifying all factors of N using full linear loop traversal `[1, N]` with O(N) time complexity.
+  - `68-proper-factors-linear-traversal.c`: Algorithmic complexity — identifying proper factors strictly less than N using loop range `[1, N-1]` with O(N) time complexity.
+  - `69-factors-half-range-boundary-flaw.c`: Algorithmic analysis — demonstrating boundary condition flaw in factor search using strict inequality `< N/2`.
+  - `70-factors-half-range-optimized.c`: Algorithmic optimization — factor search optimized to half range `<= N/2` with O(N/2) time complexity.
+  - `71-sum-factors-unassigned-return-flaw.c`: Fruitful functions & debugging — demonstrating caller flaw where function return value is discarded without assignment.
+  - `72-check-perfect-number-procedure.c`: Number theory — verifying whether a number is a Perfect Number using a `void` procedure with console output.
+  - `73-check-perfect-number-boolean-function.c`: Modular design — verifying Perfect Number returning boolean `bool` (`true`/`false`) using `<stdbool.h>`.
+  - `74-check-perfect-number-relational-expression.c`: Clean code & idioms — verifying Perfect Number by directly returning relational equality expression `(iSum == ino)`.
   - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
   - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
   - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
