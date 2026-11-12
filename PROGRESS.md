@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 74 | 0 | 32 | 0 | 106 |
+| 01. Logic Building | 83 | 0 | 46 | 0 | 129 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **74** | **0** | **32** | **0** | **106** |
+| **Overall Total** | **83** | **0** | **46** | **0** | **129** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 106 (C: 74, C++: 0, Java: 32, JavaScript: 0)
+- **Total Programs:** 129 (C: 83, C++: 0, Java: 46, JavaScript: 0)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -107,6 +107,15 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `72-check-perfect-number-procedure.c`: Number theory — verifying whether a number is a Perfect Number using a `void` procedure with console output.
   - `73-check-perfect-number-boolean-function.c`: Modular design — verifying Perfect Number returning boolean `bool` (`true`/`false`) using `<stdbool.h>`.
   - `74-check-perfect-number-relational-expression.c`: Clean code & idioms — verifying Perfect Number by directly returning relational equality expression `(iSum == ino)`.
+  - `75-check-prime-factor-sum-procedure.c`: Number theory — prime number verification using factor summation via `void` procedure.
+  - `76-check-prime-factor-sum-boolean.c`: Modular design — prime number verification using factor summation returning `bool`.
+  - `77-check-prime-nested-iteration-redundancy.c`: Algorithmic analysis — demonstration of redundant nested loop in prime verification.
+  - `78-check-prime-factor-sum-structured.c`: Modular design — structured prime number check with standard exit code.
+  - `79-check-prime-trial-division-early-return.c`: Control flow — trial division prime check with immediate early boolean return.
+  - `80-check-prime-break-counter-inspection.c`: Loop control — prime check inspecting loop counter boundary condition after `break`.
+  - `81-check-prime-boolean-flag-full-traversal.c`: State tracking — prime verification using boolean flag across full traversal.
+  - `82-check-prime-loop-header-initialization.c`: Syntax & scoping — prime verification with loop header multi-variable initialization.
+  - `83-check-prime-boolean-flag-optimized-break.c`: Algorithmic optimization — prime verification using boolean flag with early loop termination via `break`.
   - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
   - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
   - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
@@ -139,6 +148,20 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `ForLoopDynamicReverseDisplay.java`: Reverse iteration — dynamic countdown loop driven by user-supplied boundary.
   - `IterationUsingWhileLoop.java`: Control flow alternatives — iteration implemented using entry-controlled `while` loop.
   - `IterationUsingDoWhileLoop.java`: Control flow alternatives — iteration implemented using exit-controlled `do-while` loop.
+  - `DigitExtractionSequential.java`: Digit operations — sequential digit extraction fundamentals using modulo `% 10` and division `/ 10`.
+  - `DigitExtractionStateTrace.java`: Execution tracing — sequential digit extraction with intermediate state inspection.
+  - `DigitExtractionMultiDigitTrace.java`: Digit operations — multi-digit step tracing with intermediate value verification.
+  - `DigitExtractionCompleteManual.java`: Digit operations — complete manual digit decomposition from least to most significant digit.
+  - `DigitDisplayObjectOriented.java`: OOP design — digit extraction logic encapsulated in helper class instantiated as an object.
+  - `DigitExtractionUsingWhileLoop.java`: Iteration — dynamic digit extraction and state tracing using entry-controlled `while` loop.
+  - `DigitDisplaySeparatedVariable.java`: Clean code — digit extraction using dedicated variable for extracted digit storage.
+  - `DigitDisplayParameterized.java`: Modular design — parameterized method accepting target integer argument for digit extraction.
+  - `DigitDisplayWithScannerInput.java`: Dynamic input — interactive digit extraction accepting user input via `java.util.Scanner`.
+  - `DigitDisplayNegativeInputFilter.java`: Defensive programming — input filter handling negative numbers via magnitude negation.
+  - `CountDigitsUsingLoop.java`: Accumulator pattern — counting digits in an integer using `while` loop accumulator.
+  - `CountDigitsOptimizedDivision.java`: Algorithmic optimization — digit counting omitting remainder operation via direct integer division.
+  - `SumDigitsUsingLoop.java`: Accumulator pattern — calculating sum of digits using separate remainder variable and accumulator.
+  - `SumDigitsInlineAccumulator.java`: Clean code — calculating sum of digits via inline remainder addition into accumulator.
 
 ### 02. Arrays and Matrices
 - **Status:** Not Started
