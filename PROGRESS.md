@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 83 | 0 | 46 | 0 | 129 |
+| 01. Logic Building | 83 | 0 | 46 | 31 | 160 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **83** | **0** | **46** | **0** | **129** |
+| **Overall Total** | **83** | **0** | **46** | **31** | **160** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 129 (C: 83, C++: 0, Java: 46, JavaScript: 0)
+- **Total Programs:** 160 (C: 83, C++: 0, Java: 46, JavaScript: 31)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -162,6 +162,37 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `CountDigitsOptimizedDivision.java`: Algorithmic optimization — digit counting omitting remainder operation via direct integer division.
   - `SumDigitsUsingLoop.java`: Accumulator pattern — calculating sum of digits using separate remainder variable and accumulator.
   - `SumDigitsInlineAccumulator.java`: Clean code — calculating sum of digits via inline remainder addition into accumulator.
+  - `01-console-log-display.js`: Console output — formatted message printing using `console.log()`.
+  - `02-variable-dynamic-assignment.js`: Variables — dynamic variable assignment and multi-argument logging.
+  - `03-primitive-variable-types.js`: Datatypes — primitive variable declarations across numeric, string, and floating-point values.
+  - `04-typeof-operator-inspection.js`: Type inspection — runtime datatype evaluation using the unary `typeof` operator.
+  - `05-function-declaration-invocation.js`: Modular functions — function definition and procedure invocation.
+  - `06-modular-main-entry-point.js`: Modular architecture — structured application entry point using driver `main()` function.
+  - `07-addition-parameterized-function.js`: Arithmetic — addition implemented inside a parameterized function.
+  - `08-variable-declaration-let.js`: Scoping — block-scoped mutable variable declaration using `let`.
+  - `09-variable-declaration-undeclared.js`: Scoping — implicit global variable declaration without keywords.
+  - `10-variable-declaration-var.js`: Scoping — function-scoped mutable variable declaration using `var`.
+  - `11-variable-declaration-const.js`: Scoping — immutable constant binding declaration using `const`.
+  - `12-block-scope-reference-error.js`: Scoping demonstration — block scope isolation of `let` causing `ReferenceError` on outer access.
+  - `13-check-even-odd-inline.js`: Decision making — parity check using modulo `% 2` operator inline within `main()`.
+  - `14-check-even-odd-function.js`: Modular design — modular parity check encapsulated in `CheckEven()` helper function.
+  - `15-repetition-sequential-statements.js`: Iteration fundamentals — sequential console output repetition.
+  - `16-iteration-for-loop-fixed.js`: Iteration control — fixed-frequency repetition using entry-controlled `for` loop.
+  - `17-iteration-dynamic-parameter.js`: Dynamic iteration — parameterized `for` loop execution driven by input argument.
+  - `18-iteration-while-loop.js`: Control flow alternatives — iteration implemented using entry-controlled `while` loop.
+  - `19-factors-half-range-optimized.js`: Number theory — factor discovery optimized to half range `<= ino/2`.
+  - `20-sum-factors-accumulator-function.js`: Accumulator pattern — fruitful function computing sum of factors with accumulator.
+  - `21-array-declaration-logging.js`: Array fundamentals — array literal declaration and console logging.
+  - `22-array-element-indexing.js`: Array indexing — accessing array elements via zero-based subscript notation.
+  - `23-array-length-property.js`: Array properties — inspecting element count using the `length` property.
+  - `24-array-iteration-for-loop.js`: Array traversal — sequential array traversal using `for` loop and `length` bound.
+  - `25-object-literal-declaration.js`: Object fundamentals — creating and logging structured object literal with properties.
+  - `26-object-property-dot-notation.js`: Object properties — accessing object properties using dot notation.
+  - `27-class-instantiation-syntax-error.js`: OOP syntax demonstration — compilation/syntax error attempting class instantiation without `new`.
+  - `28-class-instantiation-new-keyword.js`: OOP fundamentals — instantiating multiple independent objects using `new` operator.
+  - `29-class-instance-properties-this.js`: OOP properties — defining and initializing instance properties via `this` in constructor.
+  - `30-class-parameterized-constructor.js`: OOP constructors — passing dynamic initialization arguments to class constructor.
+  - `31-class-instance-method-invocation.js`: OOP methods — defining and invoking instance methods on class instances.
 
 ### 02. Arrays and Matrices
 - **Status:** Not Started
