@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 83 | 0 | 46 | 31 | 160 |
+| 01. Logic Building | 106 | 0 | 46 | 31 | 183 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **83** | **0** | **46** | **31** | **160** |
+| **Overall Total** | **106** | **0** | **46** | **31** | **183** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 160 (C: 83, C++: 0, Java: 46, JavaScript: 31)
+- **Total Programs:** 183 (C: 106, C++: 0, Java: 46, JavaScript: 31)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -116,6 +116,29 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `81-check-prime-boolean-flag-full-traversal.c`: State tracking — prime verification using boolean flag across full traversal.
   - `82-check-prime-loop-header-initialization.c`: Syntax & scoping — prime verification with loop header multi-variable initialization.
   - `83-check-prime-boolean-flag-optimized-break.c`: Algorithmic optimization — prime verification using boolean flag with early loop termination via `break`.
+  - `84-digits-display-while-loop.c`: Digit operations — extracting and displaying individual digits in reverse order using `while` loop.
+  - `85-digits-display-negative-input-filter.c`: Defensive programming — negative input filter converting negative integer to positive for digit display.
+  - `86-digits-display-even-only.c`: Decision making in loops — filtering and displaying only even digits `(iDigit % 2) == 0`.
+  - `87-digits-display-odd-only.c`: Decision making in loops — filtering and displaying only odd digits `(iDigit % 2) != 0`.
+  - `88-digits-display-even-odd-labeled.c`: Decision making in loops — displaying both even and odd digits with respective labels.
+  - `89-digits-sum-accumulator.c`: Accumulator pattern — fruitful function computing sum of all digits.
+  - `90-digits-count-accumulator.c`: Accumulator pattern — fruitful function counting number of digits in an integer.
+  - `91-digits-average-float-typecasting.c`: Arithmetic analysis — computing accurate digit average using explicit float typecasting.
+  - `92-digits-average-integer-truncation-flaw.c`: Arithmetic analysis — demonstrating integer division truncation flaw in digit average calculation.
+  - `93-digits-average-negative-updater.c`: Defensive programming — computing float average of digits with negative input updater.
+  - `94-digits-average-formatted-precision.c`: Formatted I/O — displaying digit average formatted to 2 decimal places using `%.2f`.
+  - `95-digits-stats-hierarchical-helper-functions.c`: Modular design — hierarchical helper function delegation (`AverageOfDigit` invoking `SumDigit` and `CountDigit`).
+  - `96-digits-stats-main-coordination.c`: Modular design — application driver coordinating independent sum and count functions and computing average.
+  - `97-digits-stats-modular-average-function.c`: Modular architecture — dedicated `AverageDigits(iTotal, iFrequency)` helper with comprehensive statistic reporting.
+  - `98-digits-reverse-integer.c`: Accumulator pattern — reversing an integer's digits using positional multiplication accumulator.
+  - `99-digits-palindrome-zero-comparison-flaw.c`: Control flow & debugging — demonstrating palindrome check flaw caused by comparing against mutated `ino`.
+  - `100-digits-palindrome-cached-comparison.c`: Bug correction — palindrome verification caching original value in temporary variable before traversal.
+  - `101-pattern-vertical-star-inline.c`: Pattern printing — printing 5 vertical stars separated by tab and newline inline in `main()`.
+  - `102-pattern-horizontal-fixed-function.c`: Modular design — procedural `Pattern()` displaying 5 horizontal stars followed by newline.
+  - `103-pattern-horizontal-parameterized-fixed.c`: Modular design — parameterized `Pattern(int ino)` with fixed argument.
+  - `104-pattern-horizontal-user-frequency.c`: Dynamic input — horizontal star pattern bounded by dynamic user frequency input.
+  - `105-pattern-horizontal-dollar-symbol.c`: Pattern variation — horizontal pattern displaying dollar symbol `$` across dynamic user frequency.
+  - `106-pattern-horizontal-number-sequence.c`: Sequence pattern — horizontal sequence displaying loop index counter (1 to N) delimited by tabs.
   - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
   - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
   - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
