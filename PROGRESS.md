@@ -6,7 +6,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 | Compartment | C | C++ | Java | JavaScript | Total |
 |---|---:|---:|---:|---:|---:|
-| 01. Logic Building | 106 | 0 | 46 | 31 | 183 |
+| 01. Logic Building | 147 | 0 | 46 | 31 | 224 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
 | 03. Strings | 0 | 0 | 0 | 0 | 0 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **106** | **0** | **46** | **31** | **183** |
+| **Overall Total** | **147** | **0** | **46** | **31** | **224** |
 
 ---
 
@@ -30,7 +30,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 
 ### 01. Logic Building
 - **Status:** In Progress
-- **Total Programs:** 183 (C: 106, C++: 0, Java: 46, JavaScript: 31)
+- **Total Programs:** 224 (C: 147, C++: 0, Java: 46, JavaScript: 31)
 - **Supporting Headers:** `Header.h` (multi-file modular function declaration)
 - **Log:**
   - `01-display-message.c`: Basic formatted console output using `printf`.
@@ -139,6 +139,47 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - `104-pattern-horizontal-user-frequency.c`: Dynamic input — horizontal star pattern bounded by dynamic user frequency input.
   - `105-pattern-horizontal-dollar-symbol.c`: Pattern variation — horizontal pattern displaying dollar symbol `$` across dynamic user frequency.
   - `106-pattern-horizontal-number-sequence.c`: Sequence pattern — horizontal sequence displaying loop index counter (1 to N) delimited by tabs.
+  - `107-pattern-linear-number-sequence.c`: Sequence pattern — horizontal sequence displaying loop index counter 1 to N delimited with tabs.
+  - `108-pattern-interleaved-number-star.c`: Interleaved pattern — alternating loop counter and `*` symbol horizontally delimited with tabs.
+  - `109-pattern-zero-to-n-sequence.c`: Sequence pattern — zero-based index sequence traversal displaying numbers 0 to N.
+  - `110-pattern-reverse-n-to-zero.c`: Reverse iteration — decrementing loop displaying numbers from N down to 0.
+  - `111-pattern-negative-n-to-minus-one.c`: Negative sequence — displaying negative numbers from -N to -1 using loop index.
+  - `112-pattern-negative-n-to-zero.c`: Negative sequence — displaying negative numbers from -N up to 0 inclusive.
+  - `113-pattern-bipolar-dual-loop.c`: Bipolar sequence — displaying numbers from -N to +N using two sequential loops.
+  - `114-pattern-bipolar-single-loop.c`: Bipolar sequence — displaying numbers from -N to +N using single loop traversal.
+  - `115-pattern-ascii-uppercase-numeric-loop.c`: ASCII fundamentals — iterating uppercase character range 65 to 90 with numeric format `%d`.
+  - `116-pattern-ascii-uppercase-char-display.c`: Character I/O — iterating ASCII range 65 to 90 with character format `%c`.
+  - `117-pattern-ascii-lowercase-char-display.c`: Character I/O — iterating ASCII range 97 to 122 displaying lowercase characters `a` to `z`.
+  - `118-pattern-ascii-lowercase-code-char-table.c`: Character encoding — tabulating lowercase ASCII integer values alongside characters.
+  - `119-pattern-ascii-uppercase-code-char-table.c`: Character encoding — tabulating uppercase ASCII integer values alongside characters.
+  - `120-pattern-ascii-radix-representation-table.c`: Radix formatting — tabular display of character in decimal, octal, hex, and ASCII formats.
+  - `121-pattern-ascii-char-literal-loop.c`: Loop control — iterating character range from literal `'A'` to `'Z'` using integer counter.
+  - `122-pattern-ascii-char-variable-loop.c`: Scoping & types — iterating character range directly using `char ch` loop control variable.
+  - `123-pattern-ascii-alphabet-horizontal.c`: Modular design — displaying uppercase English alphabet horizontally via helper procedure.
+  - `124-pattern-alphabet-fixed-range.c`: Range iteration — iterating fixed character subset `'A'` through `'D'` horizontally.
+  - `125-pattern-alphabet-dynamic-increment.c`: Dynamic iteration — displaying N uppercase characters starting from `'A'` with body increment.
+  - `126-pattern-alphabet-uppercase-multi-init.c`: Multi-variable loops — uppercase sequence using dual initialization `iCnt = 1, ch = 'A'`.
+  - `127-pattern-alphabet-lowercase-multi-init.c`: Multi-variable loops — lowercase sequence using dual initialization `iCnt = 1, ch = 'a'`.
+  - `128-pattern-interleaved-number-lowercase.c`: Interleaved sequence — alternating numeric counter and lowercase character `1 a 2 b ...`.
+  - `129-pattern-grid-single-row-stars.c`: Matrix fundamentals — fixed single row grid output displaying 4 stars inline in `main()`.
+  - `130-pattern-grid-three-rows-sequential.c`: Matrix fundamentals — multi-row grid using sequential unnested loops inline in `main()`.
+  - `131-pattern-grid-procedural-sequential.c`: Modular design — encapsulating sequential row loops inside `Pattern()` procedure.
+  - `132-pattern-grid-fixed-nested-loop.c`: Nested loops — fixed 3 rows by 4 columns grid of stars using nested `for` loops.
+  - `133-pattern-grid-dynamic-stars.c`: Dynamic 2D grid — parameterized nested loops rendering `iRow` x `iCol` grid of stars.
+  - `134-pattern-grid-dynamic-dollar.c`: Dynamic 2D grid — parameterized nested loops rendering `iRow` x `iCol` grid of dollar `$` symbols.
+  - `135-pattern-grid-dynamic-hash.c`: Dynamic 2D grid — parameterized nested loops rendering `iRow` x `iCol` grid of hash `#` symbols.
+  - `136-pattern-grid-row-number-constant.c`: 2D numeric grid — constant row index displayed across columns using outer loop variable `i`.
+  - `137-pattern-grid-column-sequence.c`: 2D numeric grid — repeating column sequence 1 to `iCol` displayed across rows using inner loop `j`.
+  - `138-pattern-grid-alternating-row-symbols.c`: Conditional 2D patterns — alternating row symbols `*` (odd rows) and `$` (even rows).
+  - `139-pattern-grid-alternating-column-symbols.c`: Conditional 2D patterns — alternating column symbols `#` (odd columns) and `@` (even columns).
+  - `140-pattern-grid-char-row-constant-external.c`: 2D alphabet grid — constant character per row with external character accumulator increment.
+  - `141-pattern-grid-char-row-constant-loop-var.c`: 2D alphabet grid — constant character per row using character variable directly in outer loop.
+  - `142-pattern-grid-char-row-constant-typecast.c`: 2D alphabet grid — multi-variable loop header initializing numeric and character row trackers.
+  - `143-pattern-grid-char-column-sequence.c`: 2D alphabet grid — repeating column sequence `A B C D` on each row resetting inner character.
+  - `144-pattern-grid-main-diagonal-condition.c`: Matrix diagonals — main diagonal condition `i == j` displaying `$` on diagonal and `*` elsewhere.
+  - `145-pattern-grid-square-matrix-validation.c`: Defensive matrix design — square matrix validation filter checking `iRow != iCol` before diagonal rendering.
+  - `146-pattern-grid-diagonal-hash-column-numbers.c`: Matrix diagonals — displaying `#` along main diagonal `i == j` and column number `j` elsewhere.
+  - `147-pattern-grid-diagonal-triangles-symbols.c`: Matrix regions — partitioning square matrix into diagonal (`#`), lower triangle (`$`), and upper triangle (`*`).
   - `DisplayMessage.java`: Java console output fundamentals printing message using `System.out.println`.
   - `StringInputUsingScanner.java`: Reading full-line user string input using `java.util.Scanner` and `nextLine()`.
   - `ScannerNamingConventions.java`: Scanner input with structured object and variable naming conventions.
