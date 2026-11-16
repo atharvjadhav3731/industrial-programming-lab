@@ -8,7 +8,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 |---|---:|---:|---:|---:|---:|
 | 01. Logic Building | 147 | 0 | 46 | 31 | 224 |
 | 02. Arrays & Matrices | 0 | 0 | 0 | 0 | 0 |
-| 03. Strings | 0 | 0 | 0 | 0 | 0 |
+| 03. Strings | 8 | 0 | 0 | 0 | 8 |
 | 04. Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
 | 05. Memory Management | 0 | 0 | 0 | 0 | 0 |
 | 06. Structures & Generic Programming | 0 | 0 | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ This document tracks progress across the 16 phases of the **Logic Building with 
 | 14. Multithreading | 0 | 0 | 0 | 0 | 0 |
 | 15. Object-Oriented Design | 0 | 0 | 0 | 0 | 0 |
 | 16. Design Patterns & LLD | 0 | 0 | 0 | 0 | 0 |
-| **Overall Total** | **147** | **0** | **46** | **31** | **224** |
+| **Overall Total** | **155** | **0** | **46** | **31** | **232** |
 
 ---
 
@@ -265,10 +265,17 @@ This document tracks progress across the 16 phases of the **Logic Building with 
   - *No programs added yet.*
 
 ### 03. Strings
-- **Status:** Not Started
-- **Total Programs:** 0 (C: 0, C++: 0, Java: 0, JavaScript: 0)
+- **Status:** In Progress
+- **Total Programs:** 8 (C: 8, C++: 0, Java: 0, JavaScript: 0)
 - **Log:**
-  - *No programs added yet.*
+  - `01-string-init-character-list-implicit-size.c`: Character buffer fundamentals — string representation using null-terminated character array with compiler-inferred sizing.
+  - `02-string-init-character-list-fixed-size.c`: Buffer capacity — explicit fixed-size character array `arr[10]` with character list initialization.
+  - `03-string-init-literal-newline.c`: String literals — string initialization using string literal syntax with embedded newline escape character.
+  - `04-string-init-large-buffer-capacity.c`: Buffer allocation — oversized character buffer `arr[100]` with character list initialization and null termination.
+  - `05-string-null-terminator-truncation-semantics.c`: String semantics — demonstrating string termination where `%s` stops at `\0` ignoring subsequent buffer characters.
+  - `06-string-manual-index-assignment-null-terminated.c`: Character manipulation — manual index-by-index character assignment with explicit null termination into uninitialized buffer.
+  - `07-string-multi-word-literal-spacing.c`: String literals — multi-word string literal handling embedded whitespace within fixed character buffer.
+  - `08-string-sizeof-vs-strlen-comparison.c`: Memory analysis — comparing total allocated buffer memory (`sizeof`) with actual string length (`strlen` via `<string.h>`).
 
 ### 04. Bit Manipulation
 - **Status:** Not Started
